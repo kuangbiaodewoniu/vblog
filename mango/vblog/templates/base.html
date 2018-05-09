@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load staticfiles %}
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <div class="header">
+        <img src="{% static 'img/header.png' %}" alt="header">
+    </div>
+    <div class="content clearft">
+        <div class="content-left">
+            <div class="search">
+                <input type="text" placeholder="搜索一下">
+            </div>
+            <div id="category">
+                <ul>
+                    <li><a href="">语文</a></li>
+                    <li><a href="">历史</a></li>
+                    <li><a href="">政治</a></li>
+                    <li><a href="">地理</a></li>
+                    <li><a href="">英语</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-right">
+            <p id="content">
+                梁师傅告诉她，一会可以在三元里下车，那里有家医院比较近，可以去那里就诊。车辆到达三元里站后，乘客陈女士从前门下了车，可刚下车走了两步，她就晕倒在了站台上。梁师傅从后视镜看到后，立即下车来到这名女乘客的身边，他不停按掐她的人中，女乘客微微睁开了眼睛，但整个人还是没有清醒过来，也没有回应梁师傅的问话。梁师傅当机立断决定送她去附近的医院就医，此时有两位好心的乘客帮着梁车长一起将女乘客抬上了车躺好，梁师傅将车上的乘客安排到下一辆528线车辆后，立即“飞车”送她去医院。
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <p id="contact"><span> <a href="baidu.com">github</a> &nbsp; &nbsp;&nbsp;&nbsp;</span><span>联系我: xx@163.com</span></p>
+    </div>
+</body>
+</html>
